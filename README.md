@@ -20,7 +20,7 @@ Nesse primeiro desafio foi criado algumas funcionalidades básicas que aprendemo
 
 ### **Um pouco sobre as ferramentas**
 
-A aplicação utilizanda o [Express](https://expressjs.com/), além das seguintes ferramentas:
+A aplicação utiliza o [Express](https://expressjs.com/), além das seguintes ferramentas:
 
 - Sucrase + Nodemon;
 - ESLint + Prettier + EditorConfig;

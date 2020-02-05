@@ -25,3 +25,22 @@ A aplicação utilizanda o [Express](https://expressjs.com/), além das seguint
 - Sucrase + Nodemon;
 - ESLint + Prettier + EditorConfig;
 - Sequelize (Com PostgreSQL);
+
+### **Funcionalidades**
+
+Abaixo estão descritas as funcionalidades adicionadas na aplicação.
+
+### **1. Autenticação**
+
+Permiti que o usuário se autentique utilizando e-mail e uma senha.
+
+- A autenticação é feita utilizando JWT.
+- Realiza a validação dos dados de entrada;
+
+### 2. Gestão de destinatários
+
+Destinatários são mantidos (cadastrados/atualizados) na aplicação.
+
+O cadastro de destinatários só pode ser feito por administradores autenticados na aplicação.
+
+O destinatário não pode se autenticar no sistema, ou seja, não possui senha.
